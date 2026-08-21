@@ -10,7 +10,12 @@ requires-python = ">=3.10"
 dependencies = [
     "jax",
     "jaxlib",
-    "numpy"
+    "numpy",
+    "pandas",
+    "scipy",
+    "h5py",
+    "tifffile",
+    "pynapple"
 ]
 
 [project.optional-dependencies]
